@@ -1,5 +1,5 @@
 //
-//  Action.swift
+//  PageListEntity.swift
 //  Flux
 //
 //  Created by takahiro.kurokawa on 2019/12/02.
@@ -8,6 +8,7 @@
 
 import UIKit
 
-enum Action {
-    
+struct PageListEntity<T:Codable> {
+    var list:[T]
+    var paginate:PaginateEntity
 }

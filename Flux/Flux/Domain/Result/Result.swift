@@ -1,5 +1,5 @@
 //
-//  Action.swift
+//  Result.swift
 //  Flux
 //
 //  Created by takahiro.kurokawa on 2019/12/02.
@@ -8,6 +8,7 @@
 
 import UIKit
 
-enum Action {
-    
+enum Result<T> {
+    case success(T)
+    case failure(Error)
 }

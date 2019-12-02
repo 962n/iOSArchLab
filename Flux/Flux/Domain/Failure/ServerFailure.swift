@@ -1,5 +1,5 @@
 //
-//  Action.swift
+//  ServerFailure.swift
 //  Flux
 //
 //  Created by takahiro.kurokawa on 2019/12/02.
@@ -8,6 +8,8 @@
 
 import UIKit
 
-enum Action {
-    
+enum ServerFailure : Error {
+    case unknown
+    case notFound
+    case parameter
 }
