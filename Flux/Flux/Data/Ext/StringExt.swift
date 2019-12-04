@@ -17,7 +17,7 @@ extension String {
         for _ in 0..<length {
             let randomIndex = Int.random(in: 0...lastIndex)
             randomString += base[
-                base.index(base.startIndex, offsetBy: randomIndex - 1)..<base.index(base.startIndex, offsetBy: randomIndex)
+                base.index(base.startIndex, offsetBy: randomIndex)..<base.index(base.startIndex, offsetBy: randomIndex + 1)
             ]
             
         }

@@ -39,12 +39,7 @@ class DummyUserListRepositoryImpl : UserListRepository {
         var list:[UserSummaryEntity] = []
         for _ in 0..<limit {
             index = updateIndex(index)
-            let entity = UserSummaryEntity(
-                id: index,
-                name: String.randomAlphanumeric(10),
-                url: "",
-                isFollowing: false
-            )
+            let entity = UserSummaryEntity.createDummy(index)
             list.append(entity)
         }
         let paginate = PaginateEntity(
@@ -55,7 +50,7 @@ class DummyUserListRepositoryImpl : UserListRepository {
         )
         
         DispatchQueue.main.asyncAfter(
-            deadline: .now() + 10,
+            deadline: .now() + 3,
             execute: {
                 result(.success((list,paginate)))
             }

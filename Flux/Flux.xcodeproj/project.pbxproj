@@ -26,6 +26,14 @@
 		6F9A86632395298000A777AC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A86622395298000A777AC /* Result.swift */; };
 		6F9A866623952BAE00A777AC /* ServerFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A866523952BAE00A777AC /* ServerFailure.swift */; };
 		6F9C07BF239531B1008703A5 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07BE239531B1008703A5 /* StringExt.swift */; };
+		6F9C07C223977AD3008703A5 /* UserListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07C123977AD3008703A5 /* UserListController.swift */; };
+		6F9C07C423977B33008703A5 /* UserListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07C323977B33008703A5 /* UserListDataSource.swift */; };
+		6F9C07C62397834D008703A5 /* UserListActionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07C52397834D008703A5 /* UserListActionCreator.swift */; };
+		6F9C07C823978982008703A5 /* UserListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07C723978982008703A5 /* UserListStore.swift */; };
+		6F9C07D123979A47008703A5 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07D023979A47008703A5 /* ViewControllerFactory.swift */; };
+		6F9C07D423979A9D008703A5 /* UserListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07D323979A9D008703A5 /* UserListFactory.swift */; };
+		6F9C07D52397A891008703A5 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07BE239531B1008703A5 /* StringExt.swift */; };
+		6F9C07D92397A8D7008703A5 /* StringExtTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C07D82397A8D7008703A5 /* StringExtTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +79,13 @@
 		6F9A86622395298000A777AC /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		6F9A866523952BAE00A777AC /* ServerFailure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerFailure.swift; sourceTree = "<group>"; };
 		6F9C07BE239531B1008703A5 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		6F9C07C123977AD3008703A5 /* UserListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListController.swift; sourceTree = "<group>"; };
+		6F9C07C323977B33008703A5 /* UserListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListDataSource.swift; sourceTree = "<group>"; };
+		6F9C07C52397834D008703A5 /* UserListActionCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListActionCreator.swift; sourceTree = "<group>"; };
+		6F9C07C723978982008703A5 /* UserListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListStore.swift; sourceTree = "<group>"; };
+		6F9C07D023979A47008703A5 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		6F9C07D323979A9D008703A5 /* UserListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListFactory.swift; sourceTree = "<group>"; };
+		6F9C07D82397A8D7008703A5 /* StringExtTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +140,7 @@
 				6F9A86522395108900A777AC /* Data */,
 				6F9A86512395108100A777AC /* Domain */,
 				6F9A86552395259300A777AC /* Feature */,
+				6F9C07C9239793D8008703A5 /* Factory */,
 				6F9A861A2394FF8C00A777AC /* AppDelegate.swift */,
 				6F9A861C2394FF8C00A777AC /* SceneDelegate.swift */,
 				6F9A861E2394FF8C00A777AC /* ContentView.swift */,
@@ -147,6 +163,7 @@
 		6F9A86302394FF9300A777AC /* FluxTests */ = {
 			isa = PBXGroup;
 			children = (
+				6F9C07D62397A89D008703A5 /* Data */,
 				6F9A86312394FF9300A777AC /* FluxTests.swift */,
 				6F9A86332394FF9300A777AC /* Info.plist */,
 			);
@@ -168,6 +185,7 @@
 				6F9A864B2395006300A777AC /* Action.swift */,
 				6F9A864D2395007A00A777AC /* Store.swift */,
 				6F9A864F2395009400A777AC /* Dispatcher.swift */,
+				6F9C07C723978982008703A5 /* UserListStore.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -187,7 +205,6 @@
 			isa = PBXGroup;
 			children = (
 				6F9C07BD23953178008703A5 /* Ext */,
-				6F9A8656239525CC00A777AC /* RepositoryImpl */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -214,15 +231,9 @@
 		6F9A86552395259300A777AC /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				6F9C07C023977AB2008703A5 /* UserList */,
 			);
 			path = Feature;
-			sourceTree = "<group>";
-		};
-		6F9A8656239525CC00A777AC /* RepositoryImpl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RepositoryImpl;
 			sourceTree = "<group>";
 		};
 		6F9A86612395296800A777AC /* Result */ = {
@@ -245,6 +256,49 @@
 			isa = PBXGroup;
 			children = (
 				6F9C07BE239531B1008703A5 /* StringExt.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		6F9C07C023977AB2008703A5 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C07C123977AD3008703A5 /* UserListController.swift */,
+				6F9C07C323977B33008703A5 /* UserListDataSource.swift */,
+				6F9C07C52397834D008703A5 /* UserListActionCreator.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		6F9C07C9239793D8008703A5 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C07CA239793E4008703A5 /* UserList */,
+				6F9C07D023979A47008703A5 /* ViewControllerFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		6F9C07CA239793E4008703A5 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C07D323979A9D008703A5 /* UserListFactory.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		6F9C07D62397A89D008703A5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C07D72397A8A7008703A5 /* Ext */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6F9C07D72397A8A7008703A5 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C07D82397A8D7008703A5 /* StringExtTest.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -383,16 +437,22 @@
 				6F9A864E2395007A00A777AC /* Store.swift in Sources */,
 				6F9A865E239528B400A777AC /* PageListEntity.swift in Sources */,
 				6F9A861B2394FF8C00A777AC /* AppDelegate.swift in Sources */,
+				6F9C07D423979A9D008703A5 /* UserListFactory.swift in Sources */,
 				6F9A8660239528FF00A777AC /* UserListRepository.swift in Sources */,
 				6F9A86502395009400A777AC /* Dispatcher.swift in Sources */,
 				6F9A865A2395263700A777AC /* UserSummaryEntity.swift in Sources */,
+				6F9C07D123979A47008703A5 /* ViewControllerFactory.swift in Sources */,
+				6F9C07C62397834D008703A5 /* UserListActionCreator.swift in Sources */,
+				6F9C07C223977AD3008703A5 /* UserListController.swift in Sources */,
 				6F9A86632395298000A777AC /* Result.swift in Sources */,
 				6F9A864C2395006300A777AC /* Action.swift in Sources */,
+				6F9C07C423977B33008703A5 /* UserListDataSource.swift in Sources */,
 				6F9A866623952BAE00A777AC /* ServerFailure.swift in Sources */,
 				6F9A865C2395271A00A777AC /* UserDetailEntity.swift in Sources */,
 				6F9C07BF239531B1008703A5 /* StringExt.swift in Sources */,
 				6F9A861D2394FF8C00A777AC /* SceneDelegate.swift in Sources */,
 				6F9A861F2394FF8C00A777AC /* ContentView.swift in Sources */,
+				6F9C07C823978982008703A5 /* UserListStore.swift in Sources */,
 				6F9A8658239525EA00A777AC /* PaginateEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +461,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9C07D52397A891008703A5 /* StringExt.swift in Sources */,
+				6F9C07D92397A8D7008703A5 /* StringExtTest.swift in Sources */,
 				6F9A86322394FF9300A777AC /* FluxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

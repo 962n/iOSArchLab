@@ -14,3 +14,13 @@ struct UserSummaryEntity {
     var url:String?
     var isFollowing:Bool
 }
+extension UserSummaryEntity {
+    static func createDummy(_ index:Int) -> UserSummaryEntity {
+        return UserSummaryEntity(
+            id: index,
+            name: String.randomAlphanumeric(10),
+            url: "",
+            isFollowing: false
+        )
+    }
+}

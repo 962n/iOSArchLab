@@ -9,5 +9,11 @@
 import UIKit
 
 enum Action {
-    
+    case userList(_ list:[UserSummaryEntity],_ isRefresh:Bool)
+    case paginateUserList(_ paginate:PaginateEntity)
+    case isFetchingUserList(_ isFetching:Bool)
+    case isRefreshingUserList(_ isRefreshing:Bool)
+    case failFetchingUserList(_ error:Error)
+
+    case selectedUser(_ user:UserSummaryEntity)
 }
