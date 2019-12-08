@@ -38,7 +38,6 @@ class UserListController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
-
         if store.list.isEmpty {
             refresh(sender: refreshControl!)
         } else {

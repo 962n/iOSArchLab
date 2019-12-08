@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EA02848C-5AF9-4790-B09B-333646FBA466"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "890AF841-F8BC-4467-AE53-9B4939D872B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Feature/UserList/UserListActionCreator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchUserList(first:after:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "890AF841-F8BC-4467-AE53-9B4939D872B8 - 6de96a76a9044fed"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Flux.Result&lt;(Swift.Array&lt;Flux.UserSummaryEntity&gt;, Flux.PaginateEntity)&gt;) -&gt; () in Flux.UserListActionCreator.fetchUserList(first: Swift.Optional&lt;Swift.Int&gt;, after: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Feature/UserList/UserListActionCreator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "890AF841-F8BC-4467-AE53-9B4939D872B8 - 6de96a76a9044fed"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Flux.Result&lt;(Swift.Array&lt;Flux.UserSummaryEntity&gt;, Flux.PaginateEntity)&gt;) -&gt; () in Flux.UserListActionCreator.fetchUserList(first: Swift.Optional&lt;Swift.Int&gt;, after: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Feature/UserList/UserListActionCreator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "254">
+               </Location>
+               <Location
+                  uuid = "890AF841-F8BC-4467-AE53-9B4939D872B8 - 6de96a76a9044fed"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Flux.Result&lt;(Swift.Array&lt;Flux.UserSummaryEntity&gt;, Flux.PaginateEntity)&gt;) -&gt; () in Flux.UserListActionCreator.fetchUserList(first: Swift.Optional&lt;Swift.Int&gt;, after: Swift.Optional&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Feature/UserList/UserListActionCreator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "839">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5D22420-6418-4883-A50F-B349FD783228"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Feature/UserList/UserListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "handleEvent(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5124700A-C648-4376-81DA-B7E4EECE1AA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Core/UserListStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "onDispatch(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E127EC6-4000-4024-9DFF-57F19780B018"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Core/Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "addListener(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A95E525-1FF4-4A86-AFFE-F4AE6140339F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Core/Store.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "addListener(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Core/UserListStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "onDispatch(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68 - 9f3ee9d581531614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flux.UserListStore.onDispatch(Flux.Action) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Core/UserListStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68 - 9f3ee9d581531614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flux.UserListStore.onDispatch(Flux.Action) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Core/UserListStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68 - 9f3ee9d581531614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flux.UserListStore.onDispatch(Flux.Action) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Core/UserListStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "754">
+               </Location>
+               <Location
+                  uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68 - 9f3ee9d581531614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flux.UserListStore.onDispatch(Flux.Action) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Core/UserListStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "890">
+               </Location>
+               <Location
+                  uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68 - 9f3ee9d581531614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flux.UserListStore.onDispatch(Flux.Action) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Core/UserListStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1033">
+               </Location>
+               <Location
+                  uuid = "4D822887-0811-4EB0-BDA9-A1A0CD769C68 - 9f3ee9d581531614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flux.UserListStore.onDispatch(Flux.Action) -&gt; ()"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Core/UserListStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1466">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2D45897-0C26-496D-A137-AA5BC5F2074E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Feature/UserList/UserListDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BAFB5E0-4555-4078-BCF5-E193CDFD620E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Data/Ext/StringExt.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "randomAlphanumeric(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5BAFB5E0-4555-4078-BCF5-E193CDFD620E - f2acc5691e96e14a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in Flux):Swift.String.randomAlphanumeric(Swift.Int) -&gt; Swift.String"
+                  moduleName = "Flux"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Data/Ext/StringExt.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "694">
+               </Location>
+               <Location
+                  uuid = "5BAFB5E0-4555-4078-BCF5-E193CDFD620E - 25d658d66449edca"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in FluxTests):Swift.String.randomAlphanumeric(Swift.Int) -&gt; Swift.String"
+                  moduleName = "FluxTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/takahiro.kurokawa/git/iOSArchLab/Flux/Flux/Data/Ext/StringExt.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "694">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "738CA83E-4EF9-4335-A7FA-23DEC1324A5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FluxTests/Data/Ext/StringExtTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "testRandomAlphanumericLength()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43CA7512-6CF9-4025-92BD-B617BDA5458A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FluxTests/Data/Ext/StringExtTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "testRandomAlphanumericLength()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "756831BD-38E7-4449-86A8-1A1EF3C337F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FluxTests/Data/Ext/StringExtTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "testRandomAlphanumericLength()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11A3EF5B-7E7F-41B8-A614-3F6BD431A52E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FluxTests/Data/Ext/StringExtTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "testRandomAlphanumericLength()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D54A55E-DB10-472D-88AC-18525653CA58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Feature/UserList/UserListDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0119510B-A7FB-4D12-A0E2-8BAD9B319FB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Feature/UserList/UserListDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45CC1D26-984A-48C2-ACC2-A07A64FB0BAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flux/Core/UserListStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "onDispatch(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
